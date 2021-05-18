@@ -1,5 +1,5 @@
 .footer{
-    width: 1440px;
+    width: var(--container);
     height: 306px;
     margin-top: 101px;
     background: #E7E9ED;

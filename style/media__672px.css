@@ -1,15 +1,15 @@
-@media (max-width: 400px) {
+@media (max-width: 376px) {
     body{
-        max-width: 375px;
-        min-width: 375px;
+        max-width: var(--adaptive);
+        min-width: var(--adaptive);
     }
     .main{
-       width: 375px;
+       width: var(--adaptive);
        
     }
     .header{
-        max-width: 375px;
-        min-width: 375px;
+        max-width: var(--adaptive);
+        min-width: var(--adaptive);
         grid-template-columns: 1fr 1fr;
     }
     .header__title{
@@ -42,10 +42,10 @@
         width: 0px;
     }
     .header{
-        width: 375px;
+        width: var(--adaptive);
     }
     .main-present{
-        width: 375px;
+        width: var(--adaptive);
         max-height: 672px;
         background: url("../assets/mobile-main__image.png");
         background-repeat: no-repeat;
@@ -79,10 +79,10 @@
     }
     .content{
         display: block;
-        width: 375px;
+        width: var(--adaptive);
     }
     .content-block{
-        max-width: 375px;
+        max-width: var(--adaptive);
     }
     .content__card{
         max-width: 341px;
@@ -120,7 +120,7 @@
         display: grid;
      }
      .footer{
-         max-width: 375px;
+         max-width: var(--adaptive);
          display: block;
          height: 340px;
          margin-top: 45px;

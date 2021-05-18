@@ -5,11 +5,15 @@
 @import url("./content.css");
 @import url("./footer.css");
 @import url("./media__672px.css");
+:root{
+    --container: 1440px;
+    --adaptive: 375px;
+}
 *{
     font-family: "Lato";
 }
 .main{
-    max-width: 1400px;
+    max-width: var(--container);
     display: grid;
  
 }

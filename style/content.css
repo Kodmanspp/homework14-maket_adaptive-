@@ -1,5 +1,5 @@
 .contant-block{
-    max-width: 1440px;
+    max-width: var(--container);
 }
 .content{
     margin-left: 231px;
